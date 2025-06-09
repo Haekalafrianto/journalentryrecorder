@@ -1,0 +1,29 @@
+# PHP
+*.log
+php_errors.log
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Composer Dependencies
+/vendor/
+
+# Environment Files
+.env
+.env.*
+.env.local
+
+#IDE Config
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Caches and Others
+/cache/
+/tmp/
+/storage/*
+!/storage/.gitignore
